@@ -10,4 +10,5 @@ struct Post {
     let comments = 4
     let views = 1000
     let reposts = 3
+    let pictures: [String] = ["lima", "sara", "sara", "lima", "sara", "lima", "sara"]
 }

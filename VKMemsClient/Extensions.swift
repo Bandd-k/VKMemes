@@ -1,11 +1,3 @@
-//
-//  Fonts.swift
-//  VKNewsFeed
-//
-//  Created by Denis Karpenko on 10/11/2018.
-//  Copyright © 2018 Denis Karpenko. All rights reserved.
-//
-
 import Foundation
 import UIKit
 
@@ -30,6 +22,10 @@ extension UIFont {
 
 extension UIColor {
     static var buttonColor: UIColor { return UIColor(red: 0.5, green: 0.55, blue: 0.6, alpha: 1) }
+
+    static var pageControl: UIColor { return UIColor(red: 0.32, green: 0.51, blue: 0.72, alpha: 0.5) }
+
+    static var pageIndicatorControl: UIColor { return UIColor(red: 0.32, green: 0.51, blue: 0.72, alpha: 1) }
 }
 
 extension String {

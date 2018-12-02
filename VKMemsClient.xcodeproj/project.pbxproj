@@ -18,6 +18,9 @@
 		5089E67021AB4B3D005E2A7A /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5089E66F21AB4B3D005E2A7A /* PostModel.swift */; };
 		5089E69421AC934F005E2A7A /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5089E69221AC934F005E2A7A /* SF-Pro-Text-Regular.otf */; };
 		5089E69521AC934F005E2A7A /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5089E69321AC934F005E2A7A /* SF-Pro-Text-Medium.otf */; };
+		50EE007221AF23F100E35F4C /* PostHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EE007121AF23F100E35F4C /* PostHeaderView.swift */; };
+		50EE007421AF27C300E35F4C /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EE007321AF27C300E35F4C /* CarouselView.swift */; };
+		50EE007621AF29AC00E35F4C /* PagingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EE007521AF29AC00E35F4C /* PagingFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		5089E66F21AB4B3D005E2A7A /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		5089E69221AC934F005E2A7A /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
 		5089E69321AC934F005E2A7A /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		50EE007121AF23F100E35F4C /* PostHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderView.swift; sourceTree = "<group>"; };
+		50EE007321AF27C300E35F4C /* CarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		50EE007521AF29AC00E35F4C /* PagingFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagingFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +89,10 @@
 			isa = PBXGroup;
 			children = (
 				5089E66721AB4342005E2A7A /* CellComponents.swift */,
+				50EE007321AF27C300E35F4C /* CarouselView.swift */,
+				50EE007121AF23F100E35F4C /* PostHeaderView.swift */,
 				5089E66921AB4367005E2A7A /* PostTextView.swift */,
+				50EE007521AF29AC00E35F4C /* PagingFlowLayout.swift */,
 				5089E66B21AB439B005E2A7A /* ActionBarView.swift */,
 			);
 			path = cells;
@@ -192,8 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5089E66C21AB439B005E2A7A /* ActionBarView.swift in Sources */,
+				50EE007221AF23F100E35F4C /* PostHeaderView.swift in Sources */,
 				5089E66E21AB440F005E2A7A /* Extensions.swift in Sources */,
+				50EE007621AF29AC00E35F4C /* PagingFlowLayout.swift in Sources */,
 				5089E65621AB382F005E2A7A /* FeedMainController.swift in Sources */,
+				50EE007421AF27C300E35F4C /* CarouselView.swift in Sources */,
 				5089E67021AB4B3D005E2A7A /* PostModel.swift in Sources */,
 				5089E65421AB382F005E2A7A /* AppDelegate.swift in Sources */,
 				5089E66821AB4342005E2A7A /* CellComponents.swift in Sources */,
